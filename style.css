@@ -55,6 +55,15 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /*------------------СТРАНИЦА ВЫБОРА----------------*/
+.ramka {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url("https://i.imgur.com/RDNXlHK.jpeg");
+    background-size: cover;
+}
+
+
 .body2 {
     background-image: url("https://i.imgur.com/RDNXlHK.jpeg");
     background-size: cover;
@@ -105,6 +114,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /*------------------КИНО----------------*/
+
 
 .body3 {
     background-image: url("https://i.imgur.com/noIPPoe.png");
