@@ -1,0 +1,217 @@
+/*------------------ПРИВЕТСТСИВЕ----------------*/
+
+.body1 {
+    background-image: url("https://media1.tenor.com/m/Rxz2fN_-PrQAAAAC/congratulations-celebrate.gif");
+}
+.name {
+    display: flex;
+    height: 100px;
+    width: fit-content;
+    margin: auto;
+}
+.pozdr {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(252, 238, 221);
+    padding: 10px;
+    border-radius: 60px;
+}
+
+
+p {
+    font-family:"Comic Neue", cursive;
+}
+
+.button {
+    margin: auto;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+   background-color: rgb(255, 166, 0);
+   transition-property: all;
+   transition: 1s;
+   font-family:"Comic Neue", cursive;
+
+}
+
+.button:hover {
+    transform: rotate(360deg);
+    width: 300px;
+    font-size: xx-large;
+color: aliceblue;
+background-color: rgb(255, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Comic Neue", cursive;
+}
+
+
+/*------------------СТРАНИЦА ВЫБОРА----------------*/
+.body2 {
+    background-image: url("https://i.imgur.com/RDNXlHK.jpeg");
+    background-size: cover;
+}
+
+#altair {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 65%;
+    background-image: url("https://i.imgur.com/WVSP38n.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#altair:hover {
+    background-image: url("https://i.imgur.com/KnkRg1b.png");
+}
+
+#klub {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 65%;
+    left: 70%;
+    background-image: url("https://i.imgur.com/uOCk20e.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#klub:hover {
+    background-image: url("https://i.imgur.com/N3ht6vr.png");
+}
+
+#solntse {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 10%;
+    left: 50%;
+    background-image: url("https://i.imgur.com/cIWKtzv.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#solntse:hover {
+    background-image: url("https://i.imgur.com/i2Gd1sZ.png");
+}
+
+
+
+
+/*------------------КИНО----------------*/
+
+.body3 {
+    background-image: url("https://i.imgur.com/noIPPoe.png");
+    background-size: cover;
+}
+
+.knopki {
+    margin-left: 45%;
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+}
+.button1 {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(180, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    
+    font-family:"Comic Neue", cursive;
+}
+
+.film {
+    width: 1050px;
+    height: 500px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+
+/*------------------КЛУБ----------------*/
+.body4 {
+    background-image: url("https://i.imgur.com/czi6Ew6.jpeg");
+    background-size: cover;
+}
+
+#dt {
+    width: 100px;
+    position: absolute;
+    right: 50%;
+    top: 47%;
+}
+
+#musika {
+position: absolute;
+right: 43%;
+top: 20%;
+}
+
+/*------------------СОН----------------*/
+.body5 {
+    background: rgb(46,51,79);
+    background: radial-gradient(circle, rgba(46,51,79,1) 0%, rgba(0,0,0,1) 100%);
+}
+#alina-spit {
+    position: absolute;
+    top: 610px;
+    left: 40%;
+    width: 500px;
+    pointer-events: none;
+}
+.bubble {
+    width: 1000px;
+    height:800px;
+    position: absolute;
+    left: 25%;
+    background-image: url("https://i.imgur.com/zZNe8lc.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ksyusha {
+    position: absolute;
+    top: 12%;
+    left: 46%;
+    width: 300px;
+    z-index: 2;
+}
+#costume {
+    position: absolute;
+    top: 18%;
+    left: 26%;
+    rotate: 20deg;
+    width: 270px;
+}
+#lick {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 43%;
+    rotate: 30deg;
+    width: 100px;
+}
+
+
+
+
+.container {
+    margin: auto;
+    width: 300px;
+    height: 600px;
+    background-image: url("https://i.imgur.com/ChiSp89.png");
+}
+
+.container:hover {
+    background-image: url("https://i.imgur.com/UqnkHkC.gif");
+}
+
+
+
