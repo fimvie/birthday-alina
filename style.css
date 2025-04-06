@@ -310,13 +310,37 @@ summary:active {
     background-image: url("https://i.imgur.com/dUfcRTh.png");
     background-size: contain;
     background-repeat: no-repeat;
+    pointer-events: none;
 }
-.music {
+
+
+.t-5 {
     position: absolute;
-    top: 54%;
-    left: 65%;
-    z-index: -1;
+    height: 650px;
+    width: 750px;
+    top: 32%;
+    left: 30%;
+    background-image: url("https://i.imgur.com/i5Qe2kO.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
 }
+
+span {
+    font-size: x-large;
+    color: #FF0000; 
+ background-image: linear-gradient(45deg, #FF0000 , #FFFF00 50%, #00FF0D 56%, #009DFF 63%, #000A9C 80%, #3F0082 100%); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+}
+q {
+    background-color: rgb(189, 197, 174);
+    text-align: left;
+    margin-left: 20px;
+}
+
+
 .container {
     margin: auto;
     width: 300px;
