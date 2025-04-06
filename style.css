@@ -311,7 +311,12 @@ summary:active {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+#music {
+    position: absolute;
+    top: 54%;
+    left: 65%;
+    z-index: -1;
+}
 .container {
     margin: auto;
     width: 300px;
