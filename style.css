@@ -311,7 +311,7 @@ summary:active {
     background-size: contain;
     background-repeat: no-repeat;
 }
-#music {
+.music {
     position: absolute;
     top: 54%;
     left: 65%;
