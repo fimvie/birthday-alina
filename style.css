@@ -311,7 +311,9 @@ summary:active {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+audio {
+    display: none;
+}
 .container {
     margin: auto;
     width: 300px;
